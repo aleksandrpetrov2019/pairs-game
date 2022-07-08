@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+menu, h1, h2, h3, p, ul, div img {
+  margin: 0;
+}
+button {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+ul, menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
